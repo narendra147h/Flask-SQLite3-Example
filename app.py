@@ -49,8 +49,9 @@ def index():
 
 if __name__ == "__main__":
     """
-        User python sqlite3 to create a local database, insert some basic data and then
-        display the data using the flask templating.
-		http://flask.pocoo.org/docs/0.12/patterns/sqlite3/
+	Use python sqlite3 to create a local database, insert some basic data and then
+	display the data using the flask templating.
+	
+	http://flask.pocoo.org/docs/0.12/patterns/sqlite3/
     """
     app.run()
